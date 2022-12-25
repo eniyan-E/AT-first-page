@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body {
+    display: grid;
+    justify-content: end;
+    min-height: 300vh;
+    align-content: end;
+    background-color: #313231;
+}
+footer {
+    position: relative; 
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+    
+    /* background-image: url(/footer\ image.jpg); */
+    padding: 50px 100x;
+}
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    /* background-image: linear-gradient(to right, black , blue); */
+}
+.footer-image {
+    width: 70px;
+    height: 40px;
+}
+footer .container .sec-aboutus h2 {
+    background-color: #A5A096;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .sec-aboutus  p {
+    background-color: red;
+    line-height: 25px;
+}
+.sci {
+    list-style: none;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-gap: 20px;
+}
+.sci li a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    font-size: 30px;
+    background-color: #A5A096;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+}
+.sci li {
+    margin-left: 100px;
+}
+.sci li a {
+    color: #313231;
+
+}
+.sec-quicklinks {
+    position: relative;
+}
+.sec-quicklinks h2 {
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+
+}
+.sec-quicklinks ul {
+    list-style: none;
+    text-decoration: none;
+}
+.sec-quicklinks ul li a {
+    text-decoration: none;
+    color:  #000;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.sec-ourervices h2 {
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+.sec-ourervices ul {
+    list-style: none;
+    text-decoration: none;
+}
+.sec-ourervices ul li a {
+    text-decoration: none;
+    color:  #000;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.sec-contact h2 {
+    margin-bottom: 12px;
+    font-weight: 500;
+
+}
+.sec-contact ul {
+    list-style: none;
+    text-decoration: none;
+}
+.sec-contact ul li a {
+    text-decoration: none;
+    color:  #000;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+#address {
+    line-height: 25px;
+}
+#mail p a {
+    color: blue;
+    padding-top: 10px;
+}
+
+
+
+
+/* making it resposive..
+@media(max-width: 991px) {
+    .footer  {
+        padding: 40px;
+    }
+    .footer .container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:768px) {
+    grid-template-columns: repeat(1,1fr)
+} */
